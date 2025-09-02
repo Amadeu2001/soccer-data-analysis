@@ -1,24 +1,22 @@
 # Soccer data analysis
 
-Este projeto demonstra como consumir dados da API Football-Data.org
- para obter informações sobre os jogos da Premier League (ID 2021) na temporada 2024/2025.
+This project demonstrates how to consume data from the Football-Data.org API to obtain information about Premier League matches (ID 2021) in the 2024/2025 season.
 
-Através de um notebook em Python, são realizadas requisições à API, tratamento dos dados recebidos em formato JSON e organização das informações em um DataFrame com Pandas.
+Using a Python notebook, requests are made to the API, the received data is processed in JSON format, and the information is organized into a Pandas DataFrame.
 
+### Features
 
-### Funcionalidades
-
-- Consumo da API Football-Data.org usando requests;
-- Autenticação com X-Auth-Token;
-- Conversão da resposta JSON em DataFrame;
-- Limpeza de colunas irrelevantes;
-- Formatação de datas para dd-mm-aaaa.
+- Consumption of the Football-Data.org API using requests;
+- Authentication with X-Auth-Token;
+- Conversion of the JSON response to a DataFrame;
+- Cleaning of irrelevant columns;
+- Date formatting.
 
 ### Tecnologias Utilizadas
 
 - Python
 - Jupyter Notebook
-- Bibliotecas principais:
+- Main libraries:
   - requests
   - json
   - pandas
