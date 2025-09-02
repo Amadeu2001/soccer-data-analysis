@@ -12,7 +12,7 @@ Using a Python notebook, requests are made to the API, the received data is proc
 - Cleaning of irrelevant columns;
 - Date formatting.
 
-### Tecnologias Utilizadas
+### Technologies used
 
 - Python
 - Jupyter Notebook
